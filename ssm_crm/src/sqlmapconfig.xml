@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-config.dtd"
+>
+<configuration>
+
+
+<typeAliases>
+   <!-- <typeAlias type="com.ckz.pojo.User" alias="User"/> -->
+    <package name="com.ckz.crm.pojo"/>
+</typeAliases>
+<mappers>
+<!-- applicationContext.xml中使用了mybatis动态的扫描开发，已有配置 -->
+<!--  <package name="mapper"/>  -->
+
+</mappers>
+</configuration>
